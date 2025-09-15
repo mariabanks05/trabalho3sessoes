@@ -63,3 +63,16 @@ footer {
     color: #777;
     border-top: 1px solid #ccc;
 }
+
+/* Novas regras para as cores de fundo */
+#curso-ds {
+    background-color: #e6f2ff; /* Um azul claro */
+}
+
+#ia-videos {
+    background-color: #f2e6ff; /* Um lilás claro */
+}
+
+#setec-ia {
+    background-color: #ffe6e6; /* Um rosa claro */
+}
