@@ -7,21 +7,21 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f7fa;
+  background-color: #eef2f7;
   color: #333;
   line-height: 1.6;
 }
 
 /* Cabeçalho */
 header {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(135deg, #0066cc, #3399ff);
   color: #fff;
   padding: 60px 20px;
   text-align: center;
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 2.8em;
 }
 
 /* Sessões */
@@ -35,28 +35,28 @@ section {
 }
 
 .sessao h2 {
-  font-size: 2em;
+  font-size: 2.2em;
   margin-bottom: 20px;
-  color: #203a43;
+  color: #004466;
 }
 
-/* Sessões com cores alternadas */
+/* Cores das sessões alternadas */
 .sessao1 {
   background-color: #ffffff;
 }
 
 .sessao2 {
-  background-color: #f0f4f8;
+  background-color: #f0fbff;
 }
 
 .sessao3 {
-  background-color: #e8eaf6;
+  background-color: #fffbf0;
 }
 
 /* Separador */
 hr {
   border: none;
-  border-top: 1px solid #ccc;
+  border-top: 2px solid #cccccc;
   margin: 0;
 }
 
@@ -70,34 +70,35 @@ hr {
 }
 
 .imagens-curso img {
-  width: 220px;
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
   cursor: pointer;
 }
 
 .imagens-curso img:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
 }
 
 /* Vídeos */
 .videos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
 }
 
 .videos h3 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-bottom: 10px;
-  color: #37474f;
+  color: #003355;
 }
 
 iframe {
   width: 100%;
-  height: 200px;
-  border-radius: 8px;
+  height: 220px;
+  border-radius: 10px;
   border: none;
 }
 
@@ -105,23 +106,23 @@ iframe {
 .botao {
   display: inline-block;
   margin-top: 30px;
-  padding: 12px 24px;
-  background: #3949ab;
+  padding: 14px 28px;
+  background: #ff6600;
   color: #fff;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 8px;
   font-weight: bold;
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .botao:hover {
-  background: #1e2a78;
-  transform: scale(1.03);
+  background: #cc5200;
+  transform: scale(1.05);
 }
 
 /* Rodapé */
 footer {
-  background-color: #0f2027;
+  background-color: #004466;
   color: white;
   text-align: center;
   padding: 30px 20px;
