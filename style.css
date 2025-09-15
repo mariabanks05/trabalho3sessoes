@@ -39,15 +39,11 @@ h2, h3 {
     margin-bottom: 15px;
 }
 
-.imgdiv {
-    align-items: center;
-}
-
 img {
     max-width: 90%;
     height: auto;
     display: block;
-    margin: 20px 0;
+    margin: auto;
 }
 
 iframe {
