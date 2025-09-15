@@ -66,13 +66,30 @@ footer {
 
 /* Novas regras para as cores de fundo */
 #curso-ds {
-    background-color: #e6f2ff; /* Um azul claro */
+    background-color: #e6f2ff;
 }
 
 #ia-videos {
-    background-color: #f2e6ff; /* Um lilás claro */
+    background-color: #f2e6ff;
 }
 
 #setec-ia {
-    background-color: #ffe6e6; /* Um rosa claro */
+    background-color: #ffe6e6;
+}
+
+/* Estilo para o botão "Saiba Mais" */
+.saiba-mais-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.saiba-mais-btn:hover {
+    background-color: #0056b3;
 }
